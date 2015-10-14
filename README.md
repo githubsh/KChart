@@ -1,3 +1,3 @@
 # KChart
-修改Chartee的一些问题
+修改Zhiyu Chartee的一些问题
 
