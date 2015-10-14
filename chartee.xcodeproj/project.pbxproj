@@ -62,9 +62,8 @@
 		B0B766331B88CD7700C41F9D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B766271B88CD7700C41F9D /* Reachability.m */; };
 		B0B766341B88CD7700C41F9D /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B7662A1B88CD7700C41F9D /* JSONKit.m */; };
 		B0B766381B88CE7100C41F9D /* AutoCompleteTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B766371B88CE7100C41F9D /* AutoCompleteTableDelegate.m */; };
-		B0D856961BB0311F003465F0 /* XAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D856951BB0311F003465F0 /* XAxis.m */; settings = {ASSET_TAGS = (); }; };
 		B0E370AC1B47D4CF005F1C20 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E370A91B47D4CF005F1C20 /* Section.m */; };
-		B0E370AD1B47D4CF005F1C20 /* YAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E370AB1B47D4CF005F1C20 /* YAxis.m */; };
+		B0E370AD1B47D4CF005F1C20 /* Axis.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E370AB1B47D4CF005F1C20 /* Axis.m */; };
 		B0E370AF1B47D4F0005F1C20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E370AE1B47D4F0005F1C20 /* Images.xcassets */; };
 		B0EEDF601B3FAAF3003D193F /* AreaChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDF571B3FAAF3003D193F /* AreaChartModel.m */; };
 		B0EEDF611B3FAAF3003D193F /* CandleChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDF591B3FAAF3003D193F /* CandleChartModel.m */; };
@@ -156,12 +155,10 @@
 		B0B7662A1B88CD7700C41F9D /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		B0B766361B88CE7100C41F9D /* AutoCompleteTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteTableDelegate.h; sourceTree = "<group>"; };
 		B0B766371B88CE7100C41F9D /* AutoCompleteTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteTableDelegate.m; sourceTree = "<group>"; };
-		B0D856941BB0311F003465F0 /* XAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxis.h; sourceTree = "<group>"; };
-		B0D856951BB0311F003465F0 /* XAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxis.m; sourceTree = "<group>"; };
 		B0E370A81B47D4CF005F1C20 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
 		B0E370A91B47D4CF005F1C20 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
-		B0E370AA1B47D4CF005F1C20 /* YAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxis.h; sourceTree = "<group>"; };
-		B0E370AB1B47D4CF005F1C20 /* YAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxis.m; sourceTree = "<group>"; };
+		B0E370AA1B47D4CF005F1C20 /* Axis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Axis.h; sourceTree = "<group>"; };
+		B0E370AB1B47D4CF005F1C20 /* Axis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Axis.m; sourceTree = "<group>"; };
 		B0E370AE1B47D4F0005F1C20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = resource/Images.xcassets; sourceTree = "<group>"; };
 		B0EEDF561B3FAAF3003D193F /* AreaChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaChartModel.h; sourceTree = "<group>"; };
 		B0EEDF571B3FAAF3003D193F /* AreaChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaChartModel.m; sourceTree = "<group>"; };
@@ -393,10 +390,8 @@
 		B0EEDF551B3FAAF3003D193F /* model */ = {
 			isa = PBXGroup;
 			children = (
-				B0D856941BB0311F003465F0 /* XAxis.h */,
-				B0D856951BB0311F003465F0 /* XAxis.m */,
-				B0E370AA1B47D4CF005F1C20 /* YAxis.h */,
-				B0E370AB1B47D4CF005F1C20 /* YAxis.m */,
+				B0E370AA1B47D4CF005F1C20 /* Axis.h */,
+				B0E370AB1B47D4CF005F1C20 /* Axis.m */,
 				B0E370A81B47D4CF005F1C20 /* Section.h */,
 				B0E370A91B47D4CF005F1C20 /* Section.m */,
 				B0EEDF5A1B3FAAF3003D193F /* ChartModel.h */,
@@ -505,10 +500,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				B0B7662F1B88CD7700C41F9D /* ASIFormDataRequest.m in Sources */,
 				B06C413D1B66214C003C62BC /* CandleViewController.m in Sources */,
-				B0D856961BB0311F003465F0 /* XAxis.m in Sources */,
 				B0EEDF631B3FAAF3003D193F /* VolumeChartModel.m in Sources */,
 				5A3F8253145E3749004EAF87 /* AppDelegate.m in Sources */,
-				B0E370AD1B47D4CF005F1C20 /* YAxis.m in Sources */,
+				B0E370AD1B47D4CF005F1C20 /* Axis.m in Sources */,
 				5A3FC91E14AAFD5300DD3BE2 /* CacheHelper.m in Sources */,
 				5A3FC91F14AAFD5300DD3BE2 /* EncryptHelper.m in Sources */,
 				B06C413E1B66214C003C62BC /* ChartView.m in Sources */,

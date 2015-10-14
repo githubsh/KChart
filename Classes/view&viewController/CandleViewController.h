@@ -5,7 +5,7 @@
 //
 
 #import "ChartView.h"
-#import "YAxis.h"
+#import "Axis.h"
 #import "AutoCompleteTableDelegate.h"
 
 typedef NS_ENUM(NSInteger, BtnType) {

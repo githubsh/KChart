@@ -6,7 +6,11 @@
 //  Copyright 2011 zhiyu. All rights reserved.
 //
 
-#import "YAxis.h"
+#import "Axis.h"
+
+@implementation XAxis
+
+@end
 
 @implementation YAxis
 

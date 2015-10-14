@@ -6,6 +6,14 @@
 //  Copyright 2011 zhiyu. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
+@interface XAxis : NSObject
+
+@end
+
+
+
 @interface YAxis : NSObject
 
 //  -------------------------------------

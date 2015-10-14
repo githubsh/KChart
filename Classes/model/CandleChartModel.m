@@ -7,7 +7,7 @@
 //
 
 #import "CandleChartModel.h"
-#import "YAxis.h"
+#import "Axis.h"
 #import "ChartView.h"
 
 @implementation CandleChartModel

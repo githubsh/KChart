@@ -7,7 +7,7 @@
 //
 
 #import "LineChartModel.h"
-#import "YAxis.h"
+#import "Axis.h"
 #import "ChartView.h"
 
 @implementation LineChartModel

@@ -8,7 +8,7 @@
 //  图像分组 总共是3个分区
 //  从上到下 分别是0 K线、1 成交量、2 指标线
 
-#import "YAxis.h"
+#import "Axis.h"
 
 @interface Section : NSObject
 
