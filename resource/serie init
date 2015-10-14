@@ -1,0 +1,312 @@
+2015-08-22 12:22:18.744 chartee[22337:1341231] self.chartView.seriesArray=(
+    {
+        color = "249,222,170";
+        data =         (
+        );
+        label = Price;
+        labelColor = "176,52,52";
+        labelNegativeColor = "77,143,42";
+        name = price;
+        negativeColor = "249,222,170";
+        negativeSelectedColor = "249,222,170";
+        section = 0;
+        selectedColor = "249,222,170";
+        type = candle;
+        yAxis = 0;
+    },
+    {
+        color = "255,255,255";
+        data =         (
+        );
+        label = MA10;
+        name = ma10;
+        negativeColor = "255,255,255";
+        negativeSelectedColor = "255,255,255";
+        section = 0;
+        selectedColor = "255,255,255";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "250,232,115";
+        data =         (
+        );
+        label = MA30;
+        name = ma30;
+        negativeColor = "250,232,115";
+        negativeSelectedColor = "250,232,115";
+        section = 0;
+        selectedColor = "250,232,115";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "232,115,250";
+        data =         (
+        );
+        label = MA60;
+        name = ma60;
+        negativeColor = "232,115,250";
+        negativeSelectedColor = "232,115,250";
+        section = 0;
+        selectedColor = "232,115,250";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "176,52,52";
+        data =         (
+        );
+        decimal = 0;
+        label = VOL;
+        name = vol;
+        negativeColor = "77,143,42";
+        negativeSelectedColor = "77,143,42";
+        section = 1;
+        selectedColor = "176,52,52";
+        type = volume;
+        yAxis = 0;
+    },
+    {
+        color = "255,255,255";
+        label = RSI6;
+        name = rsi6;
+        negativeColor = "255,255,255";
+        negativeSelectedColor = "255,255,255";
+        section = 2;
+        selectedColor = "255,255,255";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "250,232,115";
+        label = RSI12;
+        name = rsi12;
+        negativeColor = "250,232,115";
+        negativeSelectedColor = "250,232,115";
+        section = 2;
+        selectedColor = "250,232,115";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "255,255,255";
+        label = "KDJ(9,3,3)";
+        name = "kdj_k";
+        negativeColor = "255,255,255";
+        negativeSelectedColor = "255,255,255";
+        section = 2;
+        selectedColor = "255,255,255";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "250,232,115";
+        label = D;
+        name = "kdj_d";
+        negativeColor = "250,232,115";
+        negativeSelectedColor = "250,232,115";
+        section = 2;
+        selectedColor = "250,232,115";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "232,115,250";
+        label = J;
+        name = "kdj_j";
+        negativeColor = "232,115,250";
+        negativeSelectedColor = "232,115,250";
+        section = 2;
+        selectedColor = "232,115,250";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "250,232,115";
+        label = WR;
+        name = wr;
+        negativeColor = "250,232,115";
+        negativeSelectedColor = "250,232,115";
+        section = 2;
+        selectedColor = "250,232,115";
+        type = area;
+        yAxis = 0;
+    },
+    {
+        color = "255,255,255";
+        label = VR;
+        name = vr;
+        negativeColor = "255,255,255";
+        negativeSelectedColor = "255,255,255";
+        section = 2;
+        selectedColor = "255,255,255";
+        type = line;
+        yAxis = 0;
+    }
+)
+
+2015-08-22 12:22:18.755 chartee[22337:1341231] self.chartView.sectionsArray=(
+"<Section: 0x7b6cbea0>",
+"<Section: 0x7ca9bc00>",
+"<Section: 0x7ca9bea0>"
+)
+
+2015-08-22 12:22:18.756 chartee[22337:1341231] sec.seriesArray=(
+    {
+        color = "249,222,170";
+        data =         (
+        );
+        label = Price;
+        labelColor = "176,52,52";
+        labelNegativeColor = "77,143,42";
+        name = price;
+        negativeColor = "249,222,170";
+        negativeSelectedColor = "249,222,170";
+        section = 0;
+        selectedColor = "249,222,170";
+        type = candle;
+        yAxis = 0;
+    },
+    {
+        color = "255,255,255";
+        data =         (
+        );
+        label = MA10;
+        name = ma10;
+        negativeColor = "255,255,255";
+        negativeSelectedColor = "255,255,255";
+        section = 0;
+        selectedColor = "255,255,255";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "250,232,115";
+        data =         (
+        );
+        label = MA30;
+        name = ma30;
+        negativeColor = "250,232,115";
+        negativeSelectedColor = "250,232,115";
+        section = 0;
+        selectedColor = "250,232,115";
+        type = line;
+        yAxis = 0;
+    },
+    {
+        color = "232,115,250";
+        data =         (
+        );
+        label = MA60;
+        name = ma60;
+        negativeColor = "232,115,250";
+        negativeSelectedColor = "232,115,250";
+        section = 0;
+        selectedColor = "232,115,250";
+        type = line;
+        yAxis = 0;
+    }
+)
+2015-08-22 12:22:18.757 chartee[22337:1341231] sec.seriesArray=(
+    {
+        color = "176,52,52";
+        data =         (
+        );
+        decimal = 0;
+        label = VOL;
+        name = vol;
+        negativeColor = "77,143,42";
+        negativeSelectedColor = "77,143,42";
+        section = 1;
+        selectedColor = "176,52,52";
+        type = volume;
+        yAxis = 0;
+    }
+)
+2015-08-22 12:22:18.758 chartee[22337:1341231] sec.seriesArray=(
+    (
+        {
+            color = "255,255,255";
+            label = RSI6;
+            name = rsi6;
+            negativeColor = "255,255,255";
+            negativeSelectedColor = "255,255,255";
+            section = 2;
+            selectedColor = "255,255,255";
+            type = line;
+            yAxis = 0;
+        },
+        {
+            color = "250,232,115";
+            label = RSI12;
+            name = rsi12;
+            negativeColor = "250,232,115";
+            negativeSelectedColor = "250,232,115";
+            section = 2;
+            selectedColor = "250,232,115";
+            type = line;
+            yAxis = 0;
+        }
+    ),
+
+    (
+        {
+            color = "255,255,255";
+            label = "KDJ(9,3,3)";
+            name = "kdj_k";
+            negativeColor = "255,255,255";
+            negativeSelectedColor = "255,255,255";
+            section = 2;
+            selectedColor = "255,255,255";
+            type = line;
+            yAxis = 0;
+        },
+        {
+            color = "250,232,115";
+            label = D;
+            name = "kdj_d";
+            negativeColor = "250,232,115";
+            negativeSelectedColor = "250,232,115";
+            section = 2;
+            selectedColor = "250,232,115";
+            type = line;
+            yAxis = 0;
+        },
+        {
+            color = "232,115,250";
+            label = J;
+            name = "kdj_j";
+            negativeColor = "232,115,250";
+            negativeSelectedColor = "232,115,250";
+            section = 2;
+            selectedColor = "232,115,250";
+            type = line;
+            yAxis = 0;
+        }
+    ),
+
+    {
+        color = "250,232,115";
+        label = WR;
+        name = wr;
+        negativeColor = "250,232,115";
+        negativeSelectedColor = "250,232,115";
+        section = 2;
+        selectedColor = "250,232,115";
+        type = area;
+        yAxis = 0;
+    },
+
+    {
+        color = "255,255,255";
+        label = VR;
+        name = vr;
+        negativeColor = "255,255,255";
+        negativeSelectedColor = "255,255,255";
+        section = 2;
+        selectedColor = "255,255,255";
+        type = line;
+        yAxis = 0;
+    }
+)
