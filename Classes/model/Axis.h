@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XAxis : NSObject
-
 //  -------------------------------------
+
+@interface XAxis : NSObject
 
 @property(nonatomic) CGRect frame;              //边界
 
@@ -30,11 +30,9 @@
 
 @end
 
-
+//  -------------------------------------
 
 @interface YAxis : NSObject
-
-//  -------------------------------------
 
 @property(nonatomic) CGRect frame;              //边界
 
