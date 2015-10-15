@@ -58,7 +58,7 @@
 		B0E370AF1B47D4F0005F1C20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E370AE1B47D4F0005F1C20 /* Images.xcassets */; };
 		B0EEDF601B3FAAF3003D193F /* AreaChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDF571B3FAAF3003D193F /* AreaChartModel.m */; };
 		B0EEDF611B3FAAF3003D193F /* CandleChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDF591B3FAAF3003D193F /* CandleChartModel.m */; };
-		B0EEDF621B3FAAF3003D193F /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDF5B1B3FAAF3003D193F /* ChartModel.m */; };
+		B0EEDF621B3FAAF3003D193F /* BaseChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDF5B1B3FAAF3003D193F /* BaseChartModel.m */; };
 		B0EEDF631B3FAAF3003D193F /* VolumeChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDF5D1B3FAAF3003D193F /* VolumeChartModel.m */; };
 		B0EEDF641B3FAAF3003D193F /* LineChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDF5F1B3FAAF3003D193F /* LineChartModel.m */; };
 /* End PBXBuildFile section */
@@ -138,8 +138,8 @@
 		B0EEDF571B3FAAF3003D193F /* AreaChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaChartModel.m; sourceTree = "<group>"; };
 		B0EEDF581B3FAAF3003D193F /* CandleChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandleChartModel.h; sourceTree = "<group>"; };
 		B0EEDF591B3FAAF3003D193F /* CandleChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandleChartModel.m; sourceTree = "<group>"; };
-		B0EEDF5A1B3FAAF3003D193F /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
-		B0EEDF5B1B3FAAF3003D193F /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		B0EEDF5A1B3FAAF3003D193F /* BaseChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseChartModel.h; sourceTree = "<group>"; };
+		B0EEDF5B1B3FAAF3003D193F /* BaseChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseChartModel.m; sourceTree = "<group>"; };
 		B0EEDF5C1B3FAAF3003D193F /* VolumeChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeChartModel.h; sourceTree = "<group>"; };
 		B0EEDF5D1B3FAAF3003D193F /* VolumeChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeChartModel.m; sourceTree = "<group>"; };
 		B0EEDF5E1B3FAAF3003D193F /* LineChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartModel.h; sourceTree = "<group>"; };
@@ -336,8 +336,8 @@
 				B0E370AB1B47D4CF005F1C20 /* Axis.m */,
 				B0E370A81B47D4CF005F1C20 /* Section.h */,
 				B0E370A91B47D4CF005F1C20 /* Section.m */,
-				B0EEDF5A1B3FAAF3003D193F /* ChartModel.h */,
-				B0EEDF5B1B3FAAF3003D193F /* ChartModel.m */,
+				B0EEDF5A1B3FAAF3003D193F /* BaseChartModel.h */,
+				B0EEDF5B1B3FAAF3003D193F /* BaseChartModel.m */,
 				B0EEDF581B3FAAF3003D193F /* CandleChartModel.h */,
 				B0EEDF591B3FAAF3003D193F /* CandleChartModel.m */,
 				B0EEDF5E1B3FAAF3003D193F /* LineChartModel.h */,
@@ -487,7 +487,7 @@
 				B0B766381B88CE7100C41F9D /* AutoCompleteTableDelegate.m in Sources */,
 				B0EEDF641B3FAAF3003D193F /* LineChartModel.m in Sources */,
 				B0EEDF611B3FAAF3003D193F /* CandleChartModel.m in Sources */,
-				B0EEDF621B3FAAF3003D193F /* ChartModel.m in Sources */,
+				B0EEDF621B3FAAF3003D193F /* BaseChartModel.m in Sources */,
 				B0EEDF601B3FAAF3003D193F /* AreaChartModel.m in Sources */,
 				B0E370AC1B47D4CF005F1C20 /* Section.m in Sources */,
 				B08850E41B85CB6500CEC8A5 /* NSString+Helpers.m in Sources */,

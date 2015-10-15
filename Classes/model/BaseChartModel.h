@@ -8,7 +8,7 @@
 
 @class ChartView;
 
-@interface ChartModel:NSObject
+@interface BaseChartModel:NSObject
 
 // abstract methods for overriden by subclasses
 

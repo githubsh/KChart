@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 lwork.com All rights reserved.
 //  区域阴影图 WR
 
-#import "ChartModel.h"
+#import "BaseChartModel.h"
 
-@interface AreaChartModel : ChartModel
+@interface AreaChartModel : BaseChartModel
 
 @end

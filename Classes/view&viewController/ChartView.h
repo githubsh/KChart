@@ -9,7 +9,7 @@
 #import "Axis.h"
 #import "Section.h"
 
-#import "ChartModel.h"
+#import "BaseChartModel.h"
 #import "AreaChartModel.h"
 #import "CandleChartModel.h"
 #import "VolumeChartModel.h"

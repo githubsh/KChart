@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 lwork.com All rights reserved.
 //  线图
 
-#import "ChartModel.h"
+#import "BaseChartModel.h"
 
-@interface LineChartModel: ChartModel
+@interface LineChartModel: BaseChartModel
 
 @end
