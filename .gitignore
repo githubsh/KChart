@@ -4,6 +4,7 @@
 *.xcuserstate
 
 *.xcuserstate
+<<<<<<< Updated upstream
 
 *.xcscheme
 
@@ -12,3 +13,5 @@
 chartee.xcodeproj/xcuserdata/steven.xcuserdatad/xcschemes/chartee.xcscheme
 
 *.xcscheme
+=======
+>>>>>>> Stashed changes

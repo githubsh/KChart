@@ -25,18 +25,15 @@
 //  获取
 + (NSData *) get:(NSString *) key
 {
-	if(![self fileExists:[self getTempPath:key]] || [self isExpired:[self getTempPath:key]]){
+	if(![self fileExists:[self getTempPath:key]] ||
+       [self isExpired:[self getTempPath:key]])
+    {
 		NSLog(@"no cache");
 	    return nil;
 	}
 	
     NSData *data = [NSData dataWithContentsOfFile:[self getTempPath:key]];
 	return data;
-}
-
-+ (void) clear
-{
-
 }
 
 + (NSString *)getTempPath:(NSString*)key
@@ -54,7 +51,7 @@
 + (BOOL)isExpired:(NSString *) key
 {
 	NSData *data = [NSData dataWithContentsOfFile:[key stringByAppendingFormat:@"%@",@".expires"]];
-	NSString *expires = [[NSString alloc] initWithData:data  encoding:NSUTF8StringEncoding];
+	NSString *expires = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
 	double exp = [expires doubleValue];
 	
 	NSDate *dt = [NSDate date];

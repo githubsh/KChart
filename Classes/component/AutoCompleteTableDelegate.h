@@ -11,8 +11,6 @@
 @property (nonatomic, strong) NSMutableArray * items;//所有数据
 @property (nonatomic, strong) NSMutableArray * selectedItems;//数据源(搜索结果)
 
-#pragma mark - 初始化SearchBar
-
 - (id)initWithBar:(UISearchBar *) bar;
 
 @end
