@@ -169,7 +169,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B0B766101B88CD7700C41F9D /* lib */,
 				5A3FC8B914AAFD5300DD3BE2 /* helper */,
 				B08850DE1B85CB6500CEC8A5 /* category */,
 				B0B766351B88CE7100C41F9D /* component */,
@@ -319,13 +318,6 @@
 			);
 			name = img;
 			path = resource/img;
-			sourceTree = "<group>";
-		};
-		B0B766101B88CD7700C41F9D /* lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		B0B766351B88CE7100C41F9D /* component */ = {
