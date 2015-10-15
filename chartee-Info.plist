@@ -13,7 +13,7 @@
 	<key>CFBundleIconFile~ipad</key>
 	<string>Icon-72.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.zhiyu.chartee</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
