@@ -13,7 +13,7 @@
 
 #pragma mark - 获取网络数据
 
--(void)getDataFromServer
+- (void)getDataFromServer
 {
     self.statusLabel.text = @"Loading...";
     if(self.chartMode == kChartModeCandleVolume) // 蜡烛图 + 成交量
@@ -79,9 +79,6 @@
 {
     self.statusLabel.text = @"获取成功!";
     
-    NSMutableArray *data = [[NSMutableArray alloc] init];
-    NSMutableArray *category = [[NSMutableArray alloc] init];//Date 日期
-    
     //  响应字符串
     NSString *content = request.responseString;
     //NSLog(@"content=%@",content);
@@ -95,6 +92,9 @@
     //  按换行符切换成数组
     NSArray *linesArray = [content componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];
     //NSLog(@"linesArray=%@",linesArray);
+    
+    NSMutableArray *data = [[NSMutableArray alloc] init];
+    NSMutableArray *category = [[NSMutableArray alloc] init];//Date 日期
     
     //  新日期在前面旧日期在后，按 先旧后新 顺序 压入数组
     for (NSInteger idx = linesArray.count-1; idx > 0; idx--)
@@ -112,19 +112,18 @@
         //  Date open close  high low volume
         
         //  按,分割成数组
-        NSArray *arr = [line componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@","]];
-        
+        NSArray *onelineArr = [line componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@","]];
         
         //  日期
-        [category addObject:arr[0]];
+        [category addObject:onelineArr[0]];
         
         //  开盘 收盘 最高 最低 成交量
         NSMutableArray *oneData =[[NSMutableArray alloc] init];
-        [oneData addObject:arr[1]];//Open
-        [oneData addObject:arr[4]];//Close
-        [oneData addObject:arr[2]];//High
-        [oneData addObject:arr[3]];//Low
-        [oneData addObject:arr[5]];//Volume
+        [oneData addObject:onelineArr[1]];//Open
+        [oneData addObject:onelineArr[4]];//Close
+        [oneData addObject:onelineArr[2]];//High
+        [oneData addObject:onelineArr[3]];//Low
+        [oneData addObject:onelineArr[5]];//Volume
         
         [data addObject:oneData];
     }
@@ -246,7 +245,8 @@ static const int confirmDay = 60;
 {
     NSMutableArray *maArray = [NSMutableArray arrayWithCapacity:0];
     
-    for(int i = confirmDay;i < data.count;i++){
+    for(int i = confirmDay;i < data.count;i++)
+    {
         float val = 0;
         for(int j=i;j>i-days;j--){
             val += [data[j][1] floatValue];
