@@ -166,7 +166,7 @@
 
 - (void)initXAxis
 {
-
+    NSLog(@"initXAxis");
 }
 
 - (void)initYAxis
